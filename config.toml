@@ -1,0 +1,4 @@
+baseURL = "https://9187.github.io/"
+languageCode = "en-us"
+title = "a blog"
+theme = "coder"
