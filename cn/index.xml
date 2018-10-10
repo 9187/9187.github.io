@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alex&#39;s Blog</title>
-    <link>https://9187.github.io/</link>
-    <description>Recent content on Alex&#39;s Blog</description>
+    <title>Alex的博客</title>
+    <link>https://9187.github.io/cn/</link>
+    <description>Recent content on Alex的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://9187.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://9187.github.io/cn/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
