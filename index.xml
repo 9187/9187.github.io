@@ -6,9 +6,35 @@
     <description>Recent content on Alex&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 17 Oct 2018 15:33:51 +0800</lastBuildDate>
     
 	<atom:link href="https://9187.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PDF快速生成目录</title>
+      <link>https://9187.github.io/generate-pdf-catalog/</link>
+      <pubDate>Wed, 17 Oct 2018 15:33:51 +0800</pubDate>
+      
+      <guid>https://9187.github.io/generate-pdf-catalog/</guid>
+      <description> 目的 为了解决PDF电子书无目录问题 工具 FreePic2PDF 下载地址：链接: https://pan.baidu.com/s/1_kIfRfxPp71b_1JcZDC5Dw 提取码: wxth 绿色软件，在网上找的，没用杀毒软件扫描，在虚拟机上用过，没发现问题，不保证没有病毒。 实操 1. 创建目录文件 在网上查找电子书目录，豆瓣、百度之类。将目录内容拷贝到新建的contents.txt文件内。 如图：
+2. 调整contents.txt内容格式 格式最终目标, 按需调整： a. 章节号与章节标题之间用&amp;#39; &amp;#39;分割 b. 章节标题与页码之间用&amp;#39;\t&amp;#39;分割 c. 章节号缩进用&amp;#39;\t&amp;#39; 调整后格式如图：
+3. FreePic2PDF处理 a. 提取PDF目录 如图：
+提取目录如图:
+b. 修改PDF目录 将contents.txt内容复制到FreePic2Pdf_bkmk.txt中
+编辑FreePic2Pdf.itf
+c. 挂载PDF目录(生成目录) 生成目录
+4. 成果图 </description>
+    </item>
+    
+    <item>
+      <title>Article List</title>
+      <link>https://9187.github.io/article-list/</link>
+      <pubDate>Wed, 17 Oct 2018 15:33:13 +0800</pubDate>
+      
+      <guid>https://9187.github.io/article-list/</guid>
+      <description> PDF生成目录-FreePic2PDF &amp;ndash; 2018-10-17  </description>
+    </item>
     
   </channel>
 </rss>
