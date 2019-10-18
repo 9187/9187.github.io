@@ -10,9 +10,11 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <base href="https://9187.github.io">
-    <title>Alex&#39;s Blog</title>
+    <title>
+  PDF快速生成目录 · Alex&#39;s Blog
+</title>
 
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://9187.github.io/generate-pdf-catalog/">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
@@ -91,12 +93,65 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="error">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, this page does not exist.<br />You can head back to <a href="https://9187.github.io">homepage</a>.</p>
-  </div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>PDF快速生成目录</h1>
+    </header>
+
+    
+
+<h1 id="目的">目的</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">为了解决PDF电子书无目录问题</pre></div>
+<h1 id="工具">工具</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">FreePic2PDF
+
+下载地址：链接: https://pan.baidu.com/s/1_kIfRfxPp71b_1JcZDC5Dw 提取码: wxth
+绿色软件，在网上找的，没用杀毒软件扫描，在虚拟机上用过，没发现问题，不保证没有病毒。</pre></div>
+<h1 id="实操">实操</h1>
+
+<h2 id="1-创建目录文件">1. 创建目录文件</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">在网上查找电子书目录，豆瓣、百度之类。将目录内容拷贝到新建的contents.txt文件内。</pre></div>
+<p>如图：</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-1.png" alt="新建contents.txt文件" /></p>
+
+<h2 id="2-调整contents-txt内容格式">2. 调整contents.txt内容格式</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">格式最终目标, 按需调整：
+a. 章节号与章节标题之间用&#39; &#39;分割
+b. 章节标题与页码之间用&#39;\t&#39;分割
+c. 章节号缩进用&#39;\t&#39;</pre></div>
+<p>调整后格式如图：</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-2.png" alt="格式调整后" /></p>
+
+<h2 id="3-freepic2pdf处理">3. FreePic2PDF处理</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">a. 提取PDF目录</pre></div>
+<p>如图：</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-3.png" alt="打开软件" /></p>
+
+<p>提取目录如图:</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-4.png" alt="打开软件" /></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">b. 修改PDF目录</pre></div>
+<p>将contents.txt内容复制到FreePic2Pdf_bkmk.txt中</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-5.png" alt="打开软件" /></p>
+
+<p>编辑FreePic2Pdf.itf</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-6.png" alt="打开软件" /></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">c. 挂载PDF目录(生成目录)</pre></div>
+<p>生成目录</p>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-7.png" alt="打开软件" /></p>
+
+<h2 id="4-成果图">4. 成果图</h2>
+
+<p><img src="https://9187.github.io/images/generate-pdf-catalog-8.png" alt="打开软件" /></p>
+
+  </article>
 </section>
 
 
