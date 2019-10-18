@@ -33,7 +33,6 @@ c. 挂载PDF目录(生成目录) 生成目录
       <pubDate>Wed, 17 Oct 2018 15:33:13 +0800</pubDate>
       
       <guid>https://9187.github.io/article-list/</guid>
-<<<<<<< HEAD
       <description> PDF生成目录-FreePic2PDF &amp;mdash;&amp;mdash; 2018-10-17 Java IO &amp;mdash;&amp;mdash; 2019-10-18  </description>
     </item>
     
@@ -45,9 +44,6 @@ c. 挂载PDF目录(生成目录) 生成目录
       <guid>https://9187.github.io/java-io/</guid>
       <description> Java IO梳理 原文地址
 Java的I/O类库的基本架构 基于字节的I/O接口:InputStream, OutputStream 基于字符的I/O接口:Reader, Writer 基于磁盘的I/O接口:File 基于网络的I/O接口:Socket(并不在java.io包下) Java Socket 工作机制 NIO工作方式 I/O调优 </description>
-=======
-      <description> PDF生成目录-FreePic2PDF &amp;mdash;&amp;mdash; 2018-10-17  </description>
->>>>>>> 6f2a5aa66661e4d4dea58419e4c41bf43e2e9362
     </item>
     
   </channel>
